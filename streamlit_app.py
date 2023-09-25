@@ -2,7 +2,7 @@ import streamlit
 import pandas
 import requests
 
-fruityvice_response=requests.get("https://fruityvice.com/appi/fruit/watermelon")
+fruityvice_response=requests.get("https://fruityvice.com/api/fruit/apple")
 
 streamlit.title('My Parents New Healty Diner')
 streamlit.header('Breakfast Menu')
