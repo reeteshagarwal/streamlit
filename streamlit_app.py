@@ -3,7 +3,7 @@ import streamlit
 import pandas
 import requests
 
-streamlit.stop()
+#streamlit.stop()
 import snowflake.connector
 from urllib.error import URIError
 
