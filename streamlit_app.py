@@ -38,9 +38,10 @@ my_cur = my_cnx.cursor()
 my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 
 #my_data_row = my_cur.fetchone()
-my_data_row = my_cur.fetchall()
+my_data_rows = my_cur.fetchall()
 
 #streamlit.text("Hello from Snowflake:")
 streamlit.text("The fruit load list:")
 
-streamlit.text(my_data_row)
+#streamlit.text(my_data_row)
+streamlit.dataframe(my_data_rows)
