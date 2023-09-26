@@ -5,7 +5,7 @@ import requests
 
 #streamlit.stop()
 import snowflake.connector
-from urllib.error import URIError
+from urllib.error import URLError
 
 
 
